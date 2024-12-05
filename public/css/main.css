@@ -1,0 +1,41 @@
+header{
+    display: flex;
+    width: auto;
+    height: fit-content;
+    flex-direction: row; 
+    align-items: flex-end;
+    margin-bottom: 5%;
+}
+.is-invalid{
+    border:1px red solid;
+}
+td{
+    border:1px black solid;
+}
+.alert-danger{
+    color: red;
+    text-decoration: red;
+    margin:5px;
+}
+.logo{
+    width:100px;
+    height:100px;
+    background-size: 100% 100%;
+    background-image: url(../images/Laravel.svg.png);
+    margin-right: 5%;
+}
+.menubutton{
+    height:fit-content;
+    font-size: 30px;
+    font-weight: bold;
+    width:fit-content;
+    padding: 8px;
+    background-color: aliceblue;
+    border: solid black 1px;
+}
+.menubutton:hover{
+    background-color: rgb(195, 195, 196);
+}
+body{
+    padding:2%;
+}
